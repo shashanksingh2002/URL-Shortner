@@ -10,11 +10,11 @@ const create = async (req, res) => {
             return res.json(createUser)
         }
         else{
-            res.json(VALIDATION)
+            return res.json(VALIDATION)
         }
     }
     catch(err){
-        throw err
+        return res.json(err.details[0].message)
     }
 }
 
