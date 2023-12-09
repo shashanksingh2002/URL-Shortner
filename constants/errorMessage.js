@@ -1,5 +1,5 @@
 module.exports = {
-    VALIDATION: 'Please send valid data',
-    TOKEN: 'Error in token',
-    AUTHORISED: 'User is authorised',
-}
+  VALIDATION: false,
+  TOKEN: false,
+  AUTHORISED: true,
+};
